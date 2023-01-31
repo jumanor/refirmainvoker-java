@@ -78,7 +78,7 @@ firmaParam.reason="Soy el autor del documento pdf";
 firmaParam.stampSigned="http://miservidor.com/estampillafirma.png";//parametro opcional
 firmaParam.pageNumber=0; //parametro opcional, pagina donde se pondra la firma visible 
 
-//Llamamos a Refirma Invoker Integration con la dirección ip en donde se ejecuta main.exe o main
+//Llamamos a Refirma Invoker Integration con la dirección ip en donde se ejecuta invoker.war
 let firma=new RefirmaInvoker("http://192.168.1.10:8080/invoker");
 //Importante:
 //El Sistema de Gestion Documental se encarga de la autenticación y envía un token al Cliente
