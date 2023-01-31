@@ -22,7 +22,7 @@ Se recomienda revisar la Implementación de [Refirma Invoker Integration constru
 2. Ejecutar el siguiente comando: mvn clean install.
 3. Se crea el archivo **invoker.war** en la carpeta target.
 4. Instalar **invoker.war** en un contenedor de servlets (Widfly, Glassfish, Apache Tomcat, etc). 
-5. En el servidor donde se ejecuta **invoker.war** crear el archivo **config.properties** en el user home *(ver: [System.getProperty("user.home")](https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html))*
+5. En el servidor donde se ejecuta **invoker.war** ubicar el user home *(ver: [System.getProperty("user.home")](https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html))* y crear la carpeta **refirma-invoker-java** y dentro de esta crear el archivo **config.properties** con la siguiente información:
     ``` bash
     # Identificador proporcionado por RENIEC
     clientId=K57845459hkj
