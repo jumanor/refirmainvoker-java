@@ -5,6 +5,8 @@ Esta implementación esta construida con Java (JSP)
 
 Se recomienda revisar la Implementación de [Refirma Invoker Integration construida con Golang](https://github.com/jumanor/refirmainvoker).
 
+La version [v1.0.0](https://github.com/jumanor/refirmainvoker-java/tree/v1.0.0) es el último lanzamiento
+
 # Características 
 - Soporte para firmar varios documentos (ReFirma PCX)
 - Api Rest, puede integrarse en cualquier proyecto web (Php, Python, Java, etc)
@@ -18,11 +20,9 @@ Se recomienda revisar la Implementación de [Refirma Invoker Integration constru
 - Argumentos invoker https://bit.ly/2J5
 
 # Instalación
-1. Instalar maven.
-2. Ejecutar el siguiente comando: mvn clean install.
-3. Se crea el archivo **invoker.war** en la carpeta target.
-4. Instalar **invoker.war** en un contenedor de servlets (Widfly, Glassfish, Apache Tomcat, etc). 
-5. En el servidor donde se ejecuta **invoker.war** ubicar el user home *(ver: [System.getProperty("user.home")](https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html))* y crear la carpeta **refirma-invoker-java** y dentro de esta crear el archivo **config.properties** con la siguiente información:
+1. Descargue [invoker.war](https://github.com/jumanor/refirmainvoker-java/releases/download/v1.0.0/invoker.war)
+2. Instalar **invoker.war** en un contenedor de servlets (Widfly, Glassfish, Apache Tomcat, etc). 
+3. En el servidor donde se ejecuta **invoker.war** ubicar el user home *(ver: [System.getProperty("user.home")](https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html))* y crear la carpeta **refirma-invoker-java** y dentro de esta crear el archivo **config.properties** con la siguiente información:
     ``` bash
     # Identificador proporcionado por RENIEC
     clientId=K57845459hkj
@@ -37,7 +37,7 @@ Se recomienda revisar la Implementación de [Refirma Invoker Integration constru
     # Maximo tamaño del archivo 7z en bytes. Ejemplo 10 megas (Opcional)
     maxFileSize7z=10485760
     ``` 
-6. Levantar el contenedor de servlets
+4. Levantar el contenedor de servlets
 
 # Funcionamiento
 
@@ -140,6 +140,8 @@ if(isset($http_response_header) == true){
 # Contribución
 
 Por favor contribuya usando [Github Flow](https://guides.github.com/introduction/flow/). Crea un fork, agrega los commits, y luego abre un [pull request](https://github.com/fraction/readme-boilerplate/compare/).
+
+- KIBALION CORP. SUCURSAL REPUBLICA DEL PERU
 
 # License
 Copyright © 2023 [Jorge Cotrado](https://github.com/jumanor). <br />
