@@ -1,3 +1,8 @@
+# ⚠️ **Deprecation Notice** ⚠️
+
+Este repositorio está **obsoleto** y ya no se mantendrá activamente, debido a que la RENIEC ya no proporciona **identificadores**.
+
+Te recomendamos utilizar [https://github.com/jumanor/firmaperu-invoker](https://github.com/jumanor/firmaperu-invoker) en su lugar.
 # Refirma Invoker Integration (Java) - Reniec
 Implementación del Motor de Firma Digital - Refirma Invoker Integration - del [RENIEC](https://dsp.reniec.gob.pe/refirma_suite/main/web/main.jsf).
 
